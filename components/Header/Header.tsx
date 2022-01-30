@@ -1,10 +1,10 @@
 import React from "react";
 import { StyleSheet, Text, View, Image } from 'react-native';
-import { Props } from "../../interfaces/types";
+import { HeaderProps } from "../../interfaces/Header.types";
 import headerStyle from "./Header.style";
 
 
-const Header = (props: Props) => {
+const Header = (props: HeaderProps) => {
   return (
     <View style={headerStyle.container}>
       <Image source={require("../../assets/icon.png")} style={headerStyle.logo} />

@@ -2,10 +2,10 @@ import { StyleSheet } from "react-native";
 
 const headerStyle = StyleSheet.create({
   container: {
-    flex: 1,
     flexDirection: "row",
     paddingTop: 50,
     justifyContent: "space-around",
+    backgroundColor: "red",
   },
   logo: {
     height: 20,
