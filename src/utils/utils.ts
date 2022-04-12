@@ -1,0 +1,7 @@
+const genRandomWord = () => {
+
+}
+
+export {
+  genRandomWord,
+}
